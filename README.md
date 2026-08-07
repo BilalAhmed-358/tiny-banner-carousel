@@ -1,5 +1,12 @@
 # tiny-banner-carousel
 
+[![npm version](https://img.shields.io/npm/v/tiny-banner-carousel?style=flat-square&color=2563eb)](https://www.npmjs.com/package/tiny-banner-carousel)
+[![npm downloads](https://img.shields.io/npm/dm/tiny-banner-carousel?style=flat-square&color=2563eb)](https://www.npmjs.com/package/tiny-banner-carousel)
+[![minified + gzip](https://img.shields.io/bundlephobia/minzip/tiny-banner-carousel?style=flat-square&label=minzip)](https://bundlephobia.com/package/tiny-banner-carousel)
+[![license](https://img.shields.io/badge/license-MIT-16a34a?style=flat-square)](./LICENSE)
+[![React 18 and 19](https://img.shields.io/badge/React-18%20%7C%2019-149eca?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 A lightweight, dependency-free banner carousel for React. It includes autoplay,
 pointer and touch gestures, keyboard navigation, responsive images, and a
 headless hook for custom rendering.
