@@ -1,0 +1,61 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.hero {
+  max-width: 760px;
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  margin: 0.5rem 0 1rem;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.description {
+  color: #64748b;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+code {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background: #111827;
+  color: #f8fafc;
+}
+
+.demo {
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 20px 50px rgb(15 23 42 / 8%);
+}
+
+.showcase-carousel {
+  --tbc-border-radius: 0.75rem;
+  --tbc-indicator-active-color: #2563eb;
+}
+
+.active-slide {
+  margin: 1rem 0 0;
+  color: #64748b;
+  text-align: center;
+}
