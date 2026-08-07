@@ -59,5 +59,13 @@
   ],
   "sideEffects": [
     "**/*.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BilalAhmed-358/tiny-banner-carousel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BilalAhmed-358/tiny-banner-carousel/issues"
+  },
+  "homepage": "https://github.com/BilalAhmed-358/tiny-banner-carousel#readme"
 }
