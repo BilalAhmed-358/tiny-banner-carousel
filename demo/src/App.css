@@ -201,7 +201,7 @@ footer a:hover {
 
 .hero__signal::before {
   position: absolute;
-  inset: -80px -90px;
+  inset: -80px 0;
   z-index: -1;
   background: radial-gradient(circle, rgb(37 99 235 / 12%), transparent 65%);
   content: '';
