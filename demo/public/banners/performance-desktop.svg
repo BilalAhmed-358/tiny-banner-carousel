@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">Performance without the payload</title>
+  <desc id="desc">Dark blue banner with performance metrics and abstract orbit lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#3b82f6" stop-opacity=".7"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1440" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="1150" cy="210" r="280" fill="url(#glow)" opacity=".55"/>
+  <g fill="none" stroke="#60a5fa" stroke-opacity=".45">
+    <ellipse cx="1150" cy="210" rx="210" ry="86" transform="rotate(-18 1150 210)"/>
+    <ellipse cx="1150" cy="210" rx="210" ry="86" transform="rotate(42 1150 210)"/>
+    <ellipse cx="1150" cy="210" rx="210" ry="86" transform="rotate(102 1150 210)"/>
+  </g>
+  <circle cx="1150" cy="210" r="36" fill="#eff6ff"/><circle cx="1150" cy="210" r="12" fill="#2563eb"/>
+  <g font-family="Inter,system-ui,sans-serif">
+    <text x="78" y="92" fill="#60a5fa" font-size="18" font-weight="700" letter-spacing="3">PERFORMANCE FIRST</text>
+    <text x="78" y="174" fill="#fff" font-size="58" font-weight="750" letter-spacing="-2">Small payload.</text>
+    <text x="78" y="236" fill="#fff" font-size="58" font-weight="750" letter-spacing="-2">Full interaction.</text>
+    <text x="80" y="298" fill="#94a3b8" font-size="22">Zero runtime dependencies. React stays a peer.</text>
+    <rect x="78" y="333" width="164" height="44" rx="22" fill="#2563eb"/>
+    <text x="160" y="361" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">≈ 2.7 kB gzip</text>
+  </g>
+</svg>

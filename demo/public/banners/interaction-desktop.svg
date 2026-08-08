@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">Made for every input</title><desc id="desc">Blue banner showing touch pointer and keyboard input cards.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+  <rect width="1440" height="420" rx="24" fill="url(#bg)"/><path d="M0 350C230 260 360 460 590 350s400-30 560-110 240-30 290 0v180H0Z" fill="#1e40af" opacity=".32"/>
+  <g font-family="Inter,system-ui,sans-serif"><text x="78" y="92" fill="#dbeafe" font-size="18" font-weight="700" letter-spacing="3">INPUT-AWARE</text><text x="78" y="176" fill="#fff" font-size="58" font-weight="750" letter-spacing="-2">Touch. Pointer. Keys.</text><text x="80" y="236" fill="#dbeafe" font-size="22">One interaction model across desktop and mobile.</text></g>
+  <g transform="translate(850 74)" font-family="Inter,system-ui,sans-serif">
+    <g><rect width="150" height="272" rx="24" fill="#fff" fill-opacity=".94"/><circle cx="75" cy="82" r="34" fill="#dbeafe"/><path d="M75 59v47M59 83h32" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/><text x="75" y="190" text-anchor="middle" fill="#172554" font-size="17" font-weight="750">Touch</text><text x="75" y="218" text-anchor="middle" fill="#64748b" font-size="13">swipe naturally</text></g>
+    <g transform="translate(170)"><rect width="150" height="272" rx="24" fill="#fff" fill-opacity=".94"/><circle cx="75" cy="82" r="34" fill="#dbeafe"/><path d="m62 59 34 29-18 4-9 18Z" fill="#2563eb"/><text x="75" y="190" text-anchor="middle" fill="#172554" font-size="17" font-weight="750">Pointer</text><text x="75" y="218" text-anchor="middle" fill="#64748b" font-size="13">drag safely</text></g>
+    <g transform="translate(340)"><rect width="150" height="272" rx="24" fill="#fff" fill-opacity=".94"/><circle cx="75" cy="82" r="34" fill="#dbeafe"/><path d="m51 82 15-14v10h18V68l15 14-15 14V86H66v10Z" fill="#2563eb"/><text x="75" y="190" text-anchor="middle" fill="#172554" font-size="17" font-weight="750">Keyboard</text><text x="75" y="218" text-anchor="middle" fill="#64748b" font-size="13">navigate accessibly</text></g>
+  </g>
+</svg>
