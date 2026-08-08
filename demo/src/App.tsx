@@ -234,7 +234,7 @@ export default function App() {
                 aria-live={autoPlay ? 'off' : 'polite'}
               >
                 <span>
-                  0{activeSlide + 1} / 0{banners.length}
+                  {activeSlide + 1}/{banners.length}
                 </span>
                 <span>{banners[activeSlide]?.alt}</span>
               </div>
