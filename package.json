@@ -24,7 +24,10 @@
     "typescript",
     "lightweight"
   ],
-  "author": "",
+  "author": {
+    "name": "Bilal Ahmed",
+    "url": "https://github.com/BilalAhmed-358"
+  },
   "license": "MIT",
   "type": "module",
   "devDependencies": {
